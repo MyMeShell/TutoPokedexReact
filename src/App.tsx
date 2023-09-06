@@ -17,7 +17,7 @@ const App: FunctionComponent = () => {
 
     return (
         <div className="light-body">
-            <h1 className="center">Pokédex</h1>
+            <h1 className="center">POKÉDEX</h1>
             <div className="search-bar-container">
                 <input
                     type="text"
@@ -37,7 +37,7 @@ const App: FunctionComponent = () => {
                                 </div>
                                 <div className="card-stacked">
                                     <div className="card-content">
-                                        <p>{name}</p>
+                                        <p className="pokemon-name">{name}</p>
                                         <p><small>{created.toDateString()}</small></p>
                                     </div>
                                 </div>

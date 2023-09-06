@@ -1,3 +1,30 @@
+.dark-body{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.light-body {
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    font-weight: bold;
+    font-family: Eras ITC;
+    background-image: linear-gradient(to right, #068, #003);
+    background-clip: text;
+    color: transparent;
+}
+
+.pokemon-name{
+    font-family: Impact;
+
+}
+
 .search-bar-container {
     width: 50%;
     min-width: 200px; /* Largeur minimale pour la barre de recherche */
@@ -9,16 +36,7 @@
     padding: 10px;
     box-sizing: border-box;
 }
-.light-body {
-    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
-.dark-body{
-    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
+
+
