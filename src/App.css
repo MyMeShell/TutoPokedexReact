@@ -1,0 +1,24 @@
+.search-bar-container {
+    width: 50%;
+    min-width: 200px; /* Largeur minimale pour la barre de recherche */
+    margin: 0 auto; /* Centrer la barre de recherche horizontalement */
+}
+
+.search-bar-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.light-body {
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.dark-body{
+    background-image: url('https://assets.pokemon.com/static2/_ui/img/chrome/body_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
