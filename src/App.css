@@ -20,6 +20,17 @@ h1{
     color: transparent;
 }
 
+.poke-button{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWQRXlPP305cn03Xp8WhDM9fy8y_48sUflZw&usqp=CAU');
+    background-size: 300%;
+    background-position: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 .pokemon-name{
     font-family: Impact;
 

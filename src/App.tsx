@@ -17,7 +17,7 @@ const App: FunctionComponent = () => {
 
     return (
         <div className="light-body">
-            <h1 className="center">POKÉDEX</h1>
+            <h1 className="center">POKÉDEX   <button className="poke-button"></button> </h1>
             <div className="search-bar-container">
                 <input
                     type="text"
